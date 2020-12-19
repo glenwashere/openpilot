@@ -284,6 +284,10 @@ IGNORED_FINGERPRINTS = [CAR.RAV4H_TSS2, CAR.HIGHLANDERH_TSS2, CAR.LEXUS_RXH_TSS2
                         CAR.LEXUS_NX, CAR.CAMRY_TSS2]
 
 FW_VERSIONS = {
+ 
+    
+    
+    
   CAR.AVALON: {
     (Ecu.esp, 0x7b0, None): [b'F152607060\x00\x00\x00\x00\x00\x00'],
     (Ecu.dsu, 0x791, None): [
@@ -1090,6 +1094,20 @@ FW_VERSIONS = {
       b'\x028646F33030D0\x00\x00\x00\x008646G26011A0\x00\x00\x00\x00',
     ],
   },
+  
+  
+  
+  
+   CAR.LEXUS_RX350_2021  { 
+    (Ecu.eps, 0x7a1, None): [b'8965B48271\x00\x00\x00\x00\x00\x00'],
+    (Ecu.engine, 0x700, None): [b'\x01896630EC9000\x00\x00\x00\x00\x00\x00'],
+    (Ecu.esp, 0x7Bb, None): [b'\x01F15260E031\x00\x00\x00\x00\x00\x00'],
+    (Ecu.fwdRadar, 0x750, 0xf): [b'\x018821F3301400\x00\x00\x00\x00'],
+    (Ecu.fwdCamera, 0x750, 0x6d): [b'\x028646F4810200\x00\x00\x00\x008646G2601400\x00\x00\x00\x00',
+    ],
+  },
+     
+  
   CAR.SIENNA: {
     (Ecu.engine, 0x700, None): [
       b'\x01896630832100\x00\x00\x00\x00',
